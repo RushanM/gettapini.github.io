@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono&subset=latin,cyrillic);
+.gradient-text {
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 44px;
+  text-transform: lowcase;
+  background: linear-gradient(45deg, #FF8C00 33%, #8700FF 66%, #8700FF 33%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #FF8C00;
+  display: table;
+  margin: 20px auto;
+}
